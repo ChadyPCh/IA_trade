@@ -1,0 +1,57 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# ==========================
+# Virtual environments
+# ==========================
+.venv/
+venv/
+env/
+
+# ==========================
+# IDE / OS
+# ==========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs & runtime artifacts
+# ==========================
+logs/*.csv
+logs/*.log
+logs/*.txt
+
+# Mantener la carpeta logs en el repo
+!logs/.gitkeep
+!logs/README.md
+
+# ==========================
+# Data & Models (ajustable)
+# ==========================
+data/raw/*
+data/processed/*
+models/checkpoints/*
+models/eth/*
+
+# Mantener carpetas aunque estén vacías (si quieres luego usar .gitkeep)
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/eth/.gitkeep
+!models/checkpoints/.gitkeep
+
+# ==========================
+# Secrets
+# ==========================
+.env
+*.pem
+*.key

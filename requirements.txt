@@ -1,0 +1,10 @@
+numpy
+pandas
+python-dotenv
+requests
+matplotlib
+streamlit
+# RL / ML (se ajusta según tu stack real)
+stable-baselines3
+gymnasium
+torch
